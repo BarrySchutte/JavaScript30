@@ -34,6 +34,17 @@ body {
   transform: translateY(-3px); /* account for the height of the clock hands */
 }
 
+.dot {
+  height: 1.5rem;
+  width: 1.5rem;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 49%;
+  left: 49%;
+  z-index: 10;
+}
+
 .hand {
   width: 50%;
   height: 4.5px;
