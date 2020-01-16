@@ -36,7 +36,7 @@ body {
 
 .hand {
   width: 50%;
-  height: 6px;
+  height: 4.5px;
   background: black;
   position: absolute;
   top: 50%;
@@ -58,4 +58,9 @@ body {
 
 .second-hand {
   background: #ff0000;
+  height: 1.5px;
+}
+
+.min-hand {
+  z-index: 10;
 }
