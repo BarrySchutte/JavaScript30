@@ -1,5 +1,5 @@
 html {
-  background: #018ded url(http://unsplash.it/1500/1000?image=881&blur=5);
+  background: url(https://images.unsplash.com/photo-1499623838158-29acea518eaa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80);
   background-size: cover;
   font-family: 'helvetica neue';
   text-align: center;
@@ -16,9 +16,10 @@ body {
 }
 
 .clock {
-  width: 30rem;
-  height: 30rem;
-  border: 20px solid white;
+  background: rgba(0, 0, 0, 0.5);
+  width: 50rem;
+  height: 50rem;
+  border: 30px solid rgba(255, 255, 255, 0.4);
   border-radius: 50%;
   margin: 50px auto;
   position: relative;
@@ -46,10 +47,15 @@ body {
 }
 
 .hour-hand {
-  width: 40%;
-  left: 10%;
+  width: 35%;
+  left: 15%;
+}
+
+.hour-hand,
+.min-hand {
+  background: #fff;
 }
 
 .second-hand {
-  background: #fff;
+  background: #ff0000;
 }
